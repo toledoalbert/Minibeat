@@ -1,0 +1,106 @@
+body {
+  font-family: 'Maven Pro', sans-serif;
+  background-color: #0E2B3F;
+  color: whitesmoke;
+}
+
+a{
+	color: whitesmoke;
+	text-decoration: none;
+}
+
+ul{
+	list-style: none;
+	padding: 3px;
+}
+
+li {
+    padding: 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+li:hover{
+	background-color: rgb(34, 59, 82);
+}
+
+#logo{
+	font-family: 'Orbitron', sans-serif;
+}
+
+#domain{
+	font-size: 12px;
+}
+
+#wrapper{
+	margin: auto;
+	color: rgb(220, 234, 250);
+	padding: 10px;
+	min-height: 600px;
+	background-color: #0E2B3F;
+}
+
+#content{
+}
+
+#topPages{
+	float: left;
+	padding-top: 2px;
+	font-size: 10px;
+}
+
+#topPages > h2{
+	margin-left: 30px;
+}
+
+#referrers{
+	/* margin-left: 500px; */
+	padding-top: 40px;
+	float: left;
+	margin-left: 30px;
+	max-width: 440px;
+}
+
+.referrer{
+    border-left: 5px solid rgb(29, 70, 94);
+}
+
+#pagesList li{
+	font-size: 18px !important;
+}
+
+#referrerList li{
+	font-size: 22px !important;
+}
+
+div#header {
+    margin: 10px;
+}
+
+h1 {
+    margin: 0;
+}
+
+span.stat {
+    background-color: #0891AC;
+    color: rgb(205, 235, 255);
+    border-radius: 60px;
+    padding: 6px;
+    margin-right: 10px;
+}
+
+span.visitorNum {
+    margin-left: 10px;
+    font-size: 13px;
+    color: #0891AC;
+}
+
+div#legend {
+    float: right;
+    margin: 20px;
+}
+
+
+span#domain:hover {
+    color: rgb(205, 237, 240);
+}
